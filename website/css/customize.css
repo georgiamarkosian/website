@@ -1,0 +1,92 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+img.scale-with-grid {
+	width: 100%; /*override existing setting*/
+}
+
+img.full-height {
+	height: 100%; /*override existing setting*/
+}
+
+body {
+  background-color: #E6E6FA;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {color : #4682B4}
+ h2 {
+  color: #00008B;
+}
+h5 {color: #9370DB}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover h5 {
+  color: #3498db;
+}
+
+img.scale-with-grid {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+img.scale-with-grid:hover {
+  transform: scale(1.05);
+}
+
+/* Navbar */
+nav a {
+  color: #5c5c8a;
+  margin: 0 5px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #9370DB;
+}
+
+/* Card style */
+.project-card {
+  background-color: #000000;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+} 
+
+/*MODIFICATIONS*/
+
+.quarter-bottom-rel { margin-bottom: 4% !important; }
+.quarter-bottom { margin-bottom: 25px !important; }
+.half-bottom { margin-bottom: 50px !important; }
+.one-bottom, .add-bottom { margin-bottom: 100px !important; }
+.two-bottoms { margin-bottom: 200px !important; }
+.one-top { margin-top: 100px !important; }
+.two-tops { margin-top: 200px !important; }
+
+.center{
+	text-align: center; }
+
+  @media screen and (max-width: 768px) {
+  h2, h3, h5 {
+    text-align: center;
+  }
+
+  .project-card {
+    margin-bottom: 30px;
+  }
+}
+
+
